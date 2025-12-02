@@ -1,4 +1,4 @@
-# 🛡️ ShadowSentry — AI-Powered Cyber Threat Intelligence Platform  
+# 🛡️ ShadowSentry — Dark Web Threat Intelligence System  
 
 ![Java](https://img.shields.io/badge/Java-17-orange?style=flat-square)
 ![Spring Boot](https://img.shields.io/badge/SpringBoot-3.x-brightgreen?style=flat-square)
@@ -10,7 +10,7 @@
 
 ## ⚙️ Overview  
 
-**ShadowSentry** is an **AI-driven cybersecurity intelligence platform** that detects, analyzes, and visualizes digital breach exposure.  
+**ShadowSentry** is an **Dark Web Threat intelligence platform** that detects, analyzes, and visualizes digital breach exposure.  
 It integrates real-time data from the **Have I Been Pwned (HIBP)** API and **dark-web intelligence via the TOR network** to provide users with a complete picture of their online vulnerability.  
 
 The platform uses **Spring Boot**, **MongoDB**, and a **React-based dashboard** to deliver personalized **risk scores**, detailed **breach insights**, and **AI-generated threat reports**, helping users stay secure in an increasingly data-breach-prone world.
