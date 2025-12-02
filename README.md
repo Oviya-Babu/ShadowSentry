@@ -20,8 +20,7 @@ The platform uses **Spring Boot**, **MongoDB**, and a **React-based dashboard** 
 ## 🚀 Features  
 
 - 🔍 **Real-Time Breach Detection** — Fetches verified breach data via the official HIBP API.  
-- 🧠 **AI-Based Risk Scoring** — Calculates exposure severity and breach frequency to assign dynamic risk levels.  
-- 🌐 **Dark-Web Intelligence Layer** — Crawls verified `.onion` sources through TOR to detect credential leaks.  
+- 🧠 **AI-Based Risk Scoring** — Calculates exposure severity and breach frequency to assign dynamic risk levels.   
 - 🧩 **Modular Microservice Design** — Separate services for feeds, incidents, and risk computation.  
 - 🕵️‍♂️ **Threat Visualization Dashboard** — React UI showing risk metrics, breach history, and insights.  
 - 🔐 **Secure Authentication** — JWT-based login with Spring Security and MongoDB token storage.  
@@ -36,7 +35,6 @@ The platform uses **Spring Boot**, **MongoDB**, and a **React-based dashboard** 
 - **MongoDB**  
 - **Spring Security & JWT Authentication**  
 - **RestTemplate + HIBP API Integration**  
-- **TOR Proxy (SOCKS5) for Dark Web Crawling**  
 - **Maven** for build & dependency management  
 
 ### 💻 Frontend  
@@ -80,7 +78,6 @@ The platform uses **Spring Boot**, **MongoDB**, and a **React-based dashboard** 
 - Node.js 18+  
 - MongoDB (local or Atlas)  
 - Valid **HIBP API Key**  
-- TOR installed and running (`tor.exe` or system service)  
 
 ---
 
@@ -97,7 +94,6 @@ spring.data.mongodb.uri=mongodb://localhost:27017/shadowsentry
 hibp.api.key=YOUR_HIBP_KEY
 hibp.baseUrl=https://haveibeenpwned.com/api/v3
 app.user.agent=ShadowSentryApp/1.0
-tor.socks.proxy=127.0.0.1:9050
 
 # 3️⃣ Run backend
 mvn spring-boot:run
@@ -115,8 +111,7 @@ mvn spring-boot:run
 - 1. User Authentication: Users register/login securely with JWT tokens.
 - 2. Breach Detection: Backend queries the HIBP API for breach records linked to the user’s email.
 - 3. Risk Scoring: AI model evaluates exposure level and computes a dynamic risk score.
-- 4. Dark Web Crawling: TOR proxy scans .onion sources using regex patterns for leaked data.
-- 5. Visualization: The React dashboard displays risk score, breach summaries, and AI insights.
+- 4. Visualization: The React dashboard displays risk score, breach summaries, and AI insights.
 
 ---
 
@@ -127,7 +122,7 @@ A huge shoutout to our team!
 - Oviya B -  https://github.com/Oviya-Babu
 - Padmanathan C - https://github.com/pc3604padma
 - Subashree A - https://github.com/SUBA04116
-- Ramya A - 
+- Ramya A - https://github.com/RamyaAnandan
 
 ---
 
