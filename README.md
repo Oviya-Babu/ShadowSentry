@@ -4,7 +4,7 @@
 ![Spring Boot](https://img.shields.io/badge/SpringBoot-3.x-brightgreen?style=flat-square)
 ![MongoDB](https://img.shields.io/badge/MongoDB-NoSQL-green?style=flat-square)
 ![React](https://img.shields.io/badge/React-Frontend-blue?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
+
 
 ---
 
@@ -57,7 +57,7 @@ The platform uses **Spring Boot**, **MongoDB**, and a **React-based dashboard** 
       │     Spring Boot + MongoDB + Security Layer            │
       ├───────────────────────────┬───────────────────────────┤
       │   HIBPFeedService         │   DarkWebRiskService      │
-      │ (Breach incidents)        │ (TOR-based intel)         │
+      │ (Breach incidents)        │          │
       └───────────────────────────┴───────────────────────────┘
                                   │
                           Breach Data & Risk Scores
